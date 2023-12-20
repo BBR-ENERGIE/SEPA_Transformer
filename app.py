@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 from flask import Flask, request, render_template, send_from_directory
 import regex
-from HTMLParser import parser
 
 app = Flask(__name__)
 path = "uploads"
